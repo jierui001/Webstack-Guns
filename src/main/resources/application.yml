@@ -29,6 +29,8 @@ spring:
     multipart:
       max-request-size: 100MB
       max-file-size: 100MB
+  main:
+    allow-bean-definition-overriding: true #当遇到同样名字的时候，是否允许覆盖注册
 
 mybatis-plus:
   typeAliasesPackage: com.jsnjfz.manage.modular.system.model
